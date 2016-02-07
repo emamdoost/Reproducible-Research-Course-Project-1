@@ -73,7 +73,7 @@ For this part of the assignment, you can ignore the missing values in the datase
 
 Note that there are a number of days/intervals where there are missing values (coded as __NA__). The presence of missing days may introduce bias into some calculations or summaries of the data.
 
-1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with __NA__s)
+1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with **NA**s)
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 3. Create a new dataset that is equal to the original dataset but with the missing data filled in.
 4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
@@ -90,7 +90,7 @@ For this part the weekdays() function may be of some help here. Use the dataset 
 To submit the assignment:
 
 1. Commit your completed PA1_template.Rmd file to the master branch of your git repository (you should already be on the master branch unless you created new ones)
-2. Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with knit2html() function in R (from the knitr package) by running the function from the console.
+2. Commit your **PA1_template.md** and **PA1_template.html** files produced by processing your R markdown file with knit2html() function in R (from the knitr package) by running the function from the console.
 3. If your document has figures included (it should) then they should have been placed in the figure/ directory by default (unless you overrided the default). Add and commit the figure/ directory to your git repository so that the figures appear in the markdown file when it displays on github.
 4. Push your master branch to GitHub.
 5. Submit the URL to your GitHub repository for this assignment on the course web site.
