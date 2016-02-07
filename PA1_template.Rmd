@@ -112,6 +112,8 @@ with(All_Activities_ia,
 
 All_Activities_ia[All_Activities_ia$avg == max_steps, ]
 ```         
+![alt text](https://github.com/emamdoost/Reproducible-Research-Course-Project-1/blob/master/figure/Plot2.PNG "Plot2")
+
 The maximum number of steps for a 5-minute interval was 206 steps.
 
 The 5-minute interval which had the maximum number of steps was the 835 interval.         
@@ -152,6 +154,8 @@ print(paste("Mean of the total number of steps taken per day: ", round(mean(New_
 print(paste("Median of the total number of steps taken per day: ", round(median(New_Daily_Tot),2)))
 
 ```
+![alt text](https://github.com/emamdoost/Reproducible-Research-Course-Project-1/blob/master/figure/Plot3.PNG "Plot3")
+
 Mean of the total number of steps taken per day:  10766.19
 
 Median of the total number of steps taken per day:  10766.19
@@ -191,5 +195,6 @@ xyplot(steps ~ interval | factor(wk),
        lty=1,
        data=wk_All_Activities)
 ```
+![alt text](https://github.com/emamdoost/Reproducible-Research-Course-Project-1/blob/master/figure/Plot4.PNG "Plot4")
 
 We can see at the graph above that activity on the weekday has the greatest peak from all steps intervals. But, we can see too that weekends activities has more peaks over a hundred than weekday. This could be due to the fact that activities on weekdays mostly follow a work related routine, where we find some more intensity activity in little a free time that the employ can made some sport. In the other hand, at weekend we can see better distribution of effort along the time.
