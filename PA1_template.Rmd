@@ -83,7 +83,7 @@ hist(x=Daily_Tot,
 print(paste("Mean of the total number of steps taken per day: ", round(mean(Daily_Tot),2)))
 print(paste("Median of the total number of steps taken per day: ", median(Daily_Tot)))
 ```
-![plot of plot1](figure/Plot1.png?raw=true)
+![plot1](figure/Plot1.png?raw=true)
 
 Mean of the total number of steps taken per day:  10766.19
 
